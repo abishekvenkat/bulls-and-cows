@@ -168,11 +168,19 @@ function App() {
             ))}
           </div>
 
-          <div className="mt-8 p-4 border rounded shadow bg-gray-100">
-            <h2 className="text-lg font-bold mb-2">Game Rules</h2>
-            <p className="text-sm mb-1"><strong>Bulls:</strong> Correct character in the right position</p>
-            <p className="text-sm mb-1"><strong>Cows:</strong> Correct character in the wrong position</p>
-            <p className="text-sm"><strong>Maximum of 7 guesses</strong></p>
+          <div className={`p-4 rounded ${darkMode ? 'bg-gray-800' : 'bg-white shadow'}`}>
+            <h2 className="text-lg font-bold mb-3">How to Play</h2>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2">
+                <span className="font-bold">Bulls:</span> Correct character in the right position 🎯
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="font-bold">Cows:</span> Correct character in the wrong position 📌
+              </li>
+              <li className="flex items-center gap-2">
+                Maximum of 🔟 guesses
+              </li>
+            </ul>
           </div>
 
           <div className="mt-4 text-center text-sm text-gray-500">
