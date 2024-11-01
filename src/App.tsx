@@ -176,7 +176,7 @@ function App() {
           </div>
 
           <div className="mt-4 text-center text-sm text-gray-500">
-            <a href="https://github.com/abishekvenkat/your-repo-name" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/abishekvenkat/bulls-and-cows" target="_blank" rel="noopener noreferrer">
               a game by abishekvenkat
             </a>
           </div>
