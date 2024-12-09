@@ -75,7 +75,7 @@ function App() {
 
     if (result.bulls === 4) {
       setGameWon(true);
-    } else if (newGuesses.length === 7) {
+    } else if (newGuesses.length === 10) {
       setGameOver(true);
     }
   };
